@@ -7,7 +7,7 @@ Project Name: Animal Welfare Administration Platform
 
  **Modules**
 
- ***Adoption Module:***
+ **Adoption Module:**
                This module facilitates the adoption process by connecting prospective pet owners with shelters and rescue organizations. Users can browse through detailed pet profiles, submit adoption applications, and schedule meet-and-greet sessions to find the perfect match for their home.
 
 **Volunteer Management Module:**
