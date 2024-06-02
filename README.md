@@ -2,7 +2,7 @@
 
 Project Name: Animal Welfare Administration Platform
 
-Description:
+**Description:**
                                      The Animal Welfare Administration Platform is a comprehensive web application designed to streamline and automate various processes related to animal welfare. This platform serves multiple purposes, including facilitating pet adoption,organizing volunteer activities, and handling user inquiries and emergencies. It's an online space dedicated to helping animals find homes, receive care, and get support in times of need.
 
 Features:
