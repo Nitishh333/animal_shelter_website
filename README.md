@@ -16,5 +16,5 @@ Project Name: Animal Welfare Administration Platform
  **Queries Module:**
                The Queries Module simplifies the process of handling user inquiries and issues. Users can submit queries related to animal distress, general inquiries, or emergencies. Admins can easily view these queries and communicate with users personally to provide timely and personalized responses.
 
-# **Admin Module:**
+ **Admin Module:**
                   The Admin Module provides a centralized interface for administrators to manage all aspects of the platform. This includes overseeing adoption processes, managing volunteer activities, responding to user queries, and ensuring smooth operation of the platform.
