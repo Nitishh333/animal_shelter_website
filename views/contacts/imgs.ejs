@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded Images</title>
+    <style>
+        /* Add your CSS styles here */
+        .image-container {
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uploaded Images</h1>
+    <div class="gallery">
+        <% images.forEach(image => { %>
+            <div class="image-container">
+                <h2><%= image.name %></h2> <!-- Display image name -->
+                <img src="/uploads/<%= image.image.data %>" alt="<%= image.name %>"> <!-- Display image -->
+                <p><%= image.description %></p> <!-- Display image description -->
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>

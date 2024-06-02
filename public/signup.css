@@ -1,0 +1,345 @@
+/* img{
+  width:30%;
+  height:70vh;
+} */
+
+@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: url("pics/pexels-sebastian-arie-voortman-189349.jpg");
+  background-size: cover;
+  font-family: 'Roboto' ;
+  color: #333;
+  font-size: 13px;
+  margin:0;
+
+}
+
+input,select,button{
+  font-family: 'Sniglet';
+  color:#333;
+  font-size: 14px;
+}
+
+h3,h4{
+  margin:0;
+}
+
+img{
+  max-width: 100%;
+}
+
+:focus{
+  outline:none;
+}
+
+ .wrapper{
+  min-height: 100vh;
+  /* background-color: blue;  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  
+} 
+
+.inner{
+  background: white;
+  padding:20px;
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+}
+
+.inner .image-holder{
+  width:50%;
+}
+
+.inner form{
+  width:50%;
+  padding-top: 36px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.inner h3{
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 28px;
+  color:rgb(255, 0, 0);
+  text-shadow: 2px 1px 2px red;
+}
+
+.form-group{
+  display: flex;
+}
+.form-group input{
+  width:50%;
+  font-size:20px;
+}
+
+.form-group input:first-child{
+  margin-right: 25px;
+}
+
+.form-wrapper{
+  position: relative;
+  
+}
+.form-wrapper input{
+  font-size: 20px;
+}
+
+.form-control{
+  border:1px solid #333;
+  border:none;
+  border-bottom: 1px solid #333;
+  width:100%;
+  height:40px;
+  padding-right: 0;
+  margin-bottom: 28px;
+}
+
+select{
+  cursor: pointer;
+  color:grey;
+  font-size: 19px;
+  padding: auto;
+ 
+
+}
+
+
+
+select option[value=""] [disabled]{
+  display: none;
+
+}
+
+button{
+  border:none;
+  width:164px;
+  height:51px;
+  margin:auto;
+  margin-top: 40px;
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  background:#333;
+  color:white;
+  font-size: 15px;
+  border-radius:4px;
+}
+
+button:hover{
+  background-color:rgb(62, 138, 141);
+  border-radius: 10px;
+}
+
+@media(max-width:767px)
+{
+  .inner{
+    display :block;
+  }
+  .inner .image-holder{
+    width: 100%;
+  }
+
+  .inner form{
+    width:100%;
+    padding:40px 0 30px;
+
+  }
+  button{
+    margin-top: 60px;
+  }
+
+
+}
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*Allow columns to wrap on small screens*/
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between columns */
+  max-width: 300px; /* Limit maximum width of each column */
+  
+
+}
+
+
+
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*Allow columns to wrap on small screens*/
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between columns */
+  max-width: 300px; /* Limit maximum width of each column */
+  
+
+}
+
+
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*Allow columns to wrap on small screens*/
+  font-size: 18px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between columns */
+  max-width: 300px; /* Limit maximum width of each column */
+  padding-top: 50px;
+}
+
+
+
+.footer-column h3{
+  color:#e21818;
+}
+.footer-column a{
+  color: white;
+}
+
+.footer-column li {
+  display: inline;
+  
+  padding:5px ;
+}
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .footer-column {
+    flex-basis: 100%; /* Each column takes full width on small screens */
+    max-width: none; /* Remove maximum width */
+  }
+}
+
+
+.social{
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  height:50px;
+  
+  
+
+
+}
+
+.picsocial{
+  width:30px;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.footer h3{
+  padding-bottom: 30px;
+}
+
+
+
+/* Navbar */
+.navbar {
+  background-color: #000; /* Black background color */
+}
+
+.navbar-brand {
+  font-family: 'Grandstander', sans-serif; /* Use Grandstander font for the brand */
+  color: #fff; /* White text color */
+  font-size: 1.5rem; /* Adjust brand font size */
+}
+
+.navbar-brand img {
+  width: 50px; /* Adjust logo width */
+}
+
+.nav-link {
+  color: #fff; /* White text color for nav links */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ff9900; /* Orange color on hover */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff; /* White text color for dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #ff9900; /* Orange color on hover */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from toggler button */
+  color: #fff; /* White color for toggler button */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for toggler icon */
+}
+
+.help {
+  /* Additional styling for collapsed navbar if needed */
+}
+
+.pawpatrol {
+  color: #da6714; /* Custom color for 'PAW PATROL' text */
+}
+
+.material-symbols-outlined {
+  /* Additional styling for icon font if needed */
+}
+
+
+
+
+.but{
+  margin-top: 30px;
+  padding:15px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 25px;
+  background: transparent;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  border:2px solid #009688;
+
+}
+
+.but:hover{
+  background-color: #009688;
+  
+  
+  transition: 1s ease-in;
+}
+

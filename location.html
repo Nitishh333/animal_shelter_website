@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCATION</title>
+  <!-- <link rel="stylesheet" href="/aboutloc.css"> -->
+  <style>
+    * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.heading {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.heading h1 {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.heading h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #4caf50;
+}
+
+.heading p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location-map {
+  flex: 1;
+  margin-right: 40px;
+  height: 50vh;
+}
+
+.location-map iframe {
+  width: 100%;
+  height: 100%; 
+  display: block;
+  transition: 0.5s ease;
+}
+
+
+.location-content {
+  flex: 1;
+}
+
+.location-content h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.location-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.location-content .get-directions {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #aa7474;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+.location-content .get-directions:hover {
+  color: white;
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 769px) {
+  .heading {
+    padding: 0px 20px;
+  }
+  .heading h1 {
+    font-size: 36px;
+  }
+  .heading p {
+    font-size: 17px;
+  }
+  .location {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .location-map {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .location-content p {
+    padding: 0px;
+    font-size: 16px;
+  }
+  .location-content .get-directions {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow columns to wrap on small screens */
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between columns */
+  max-width: 300px; /* Limit maximum width of each column */
+  padding-top: 50px;
+}
+
+.footer-column h3 {
+  color: #e21818;
+}
+
+.footer-column a {
+  color: white;
+}
+
+.footer-column li {
+  display: inline;
+  padding: 5px;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .footer-column {
+    flex-basis: 100%; /* Each column takes full width on small screens */
+    max-width: none; /* Remove maximum width */
+  }
+}
+
+.social {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  height: 50px;
+}
+
+.picsocial {
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.footer h3 {
+  padding-bottom: 30px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="heading">
+    <h1>LOCATION</h1>
+    <p>Find us and visit our shelter to meet our lovely animals and learn more about our mission.</p>
+  </div>
+
+  <div class="container">
+    <section class="location">
+      <div class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.5760960771458!2d76.90787844313243!3d11.025674626114894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85f30bf2d4f69%3A0xbc41300835811164!2sV.N.R.Nagar%2C%20Senniveerampalayam%2C%20Coimbatore%2C%20Tamil%20Nadu%20641041!5e0!3m2!1sen!2sin!4v1716223732050!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+      </div>
+      <div class="location-content">
+        <h2>Our Address</h2>
+        <p>VNR Nagar, Vadavalli, Coimbatore-41</p>
+        <h2>Contact Information</h2>
+        <p>Email: nitishnnn25@gmail.com</p>
+        <p>Phone: +1234567890</p>
+        <!-- <a href="" class="get-directions">Get Directions</a> -->
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-column">
+      <h3>Paw Patrol</h3>
+      <p>Actively promoting and working for a pain-free and dignified life for all animals.</p>
+    </div>
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#" class="flink">Home</a></li>
+        <li><a href="#" class="flink">About</a></li>
+        <li><a href="#" class="flink">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <p>Address: VNR Nagar, Vadavalli, Coimbatore-41</p>
+      <p>Email: nitishnnn25@gmail.com</p>
+      <p>Phone: +1234567890</p>
+    </div>
+  </footer>
+
+  <div class="social">
+    <a href="mailto:nitishnnn25@gmail.com"><img src="pics/gmail.png" alt="" class="picsocial"></a>
+    <img src="pics/yt.png" alt="" class="picsocial">
+    <img src="pics/ins.png" alt="" class="picsocial">
+  </div>
+
+</body>
+</html>

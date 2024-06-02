@@ -1,0 +1,167 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image:url("pics/pexels-rpnickson-2559941.jpg") !important;
+  background-size: cover;
+}
+
+.contactus{
+  /* text-align: center;
+  font-size: 50px;
+  font-family: 'Sniglet';
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.703); */
+
+  text-align: center;
+  color: #333;
+  font-size: 60px;
+  
+  
+  text-shadow: 2px 2px 4px rgba(152, 50, 50, 0.5);
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input[type=text], textarea,input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+    background-color: #101010;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left:40%;
+}
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.border{
+  padding-top: 40px;
+  border: #000000 solid;
+  width:50%;
+  margin-left: 25%;
+  background-color: rgba(97, 95, 93, 0.9);
+  border-radius: 30px;
+  padding-bottom: 50px;
+
+}
+
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*Allow columns to wrap on small screens*/
+  margin-top: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between columns */
+  max-width: 300px; /* Limit maximum width of each column */
+  
+
+}
+
+
+
+
+.footer-column h3{
+  color:#e21818;
+}
+.footer-column a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column a:hover{
+  text-decoration:underline;
+  color:#ff9900;
+  
+}
+
+.footer-column li {
+  display: inline;
+  
+  padding:5px ;
+}
+
+
+.social{
+  background-color: rgba(51, 51, 51, 0.8);
+  text-align: center;
+  height:50px;
+  
+  
+
+
+}
+
+.picsocial{
+  width:30px;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+
+
+/* radio buttons */
+
+.radio-group{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.radio{
+  font-size: 20px;
+  color: #efe7e7;
+  padding-top: 8px;
+
+}
+.radio input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+
+  border: 2px solid #ffffff; 
+  background-color: white;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.radio input[type="radio"]:checked {
+  background-color: rgb(198, 30, 30); 
+}
+
+
+.radio input[type="radio"]:checked::before {
+  background-color: rgb(0, 0, 0); 
+}
+
+form .h4{
+  color: #ffffff;
+  font-size: 30px;
+  
+  
+  text-shadow: 2px 2px 4px rgba(152, 50, 50, 0.5);
+  text-decoration: underline;
+}
