@@ -1,4 +1,5 @@
 # animal_shelter_website
+**This project is developed as a part of my college mini project.**
 
 Project Name: Animal Welfare Administration Platform
 
